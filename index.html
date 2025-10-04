@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daegu Middle High School Hall of Fame</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #2e7d32; /* deep green */
+      color: black;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: #388e3c;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header h2 {
+      font-size: 1.5rem;
+      color: gold;
+    }
+
+    .foundation {
+      text-align: center;
+      padding: 1rem 2rem;
+      background-color: #43a047;
+      font-size: 1.1rem;
+    }
+
+    .criteria {
+      padding: 2rem;
+      background-color: #4caf50;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      border-top: 2px solid #1b5e20;
+      border-bottom: 2px solid #1b5e20;
+    }
+
+    .founders {
+      background-color: #66bb6a;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .founders h2 {
+      color: gold;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .founder-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .founder {
+      background-color: #81c784;
+      border-radius: 10px;
+      padding: 1.5rem;
+      width: 250px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .founder img {
+      width: 200px;
+      height: 200px;
+      border: 3px solid gold;
+      border-radius: 8px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    .founder h3 {
+      color: gold;
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .founder p {
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    .members {
+      padding: 2rem 0;
+    }
+
+    .member {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      border-bottom: 2px solid #1b5e20;
+      background-color: #66bb6a;
+    }
+
+    .member img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border: 4px solid gold;
+      border-radius: 8px;
+      margin-right: 2rem;
+    }
+
+    .member-info h3 {
+      font-size: 1.8rem;
+      color: gold;
+      margin: 0;
+    }
+
+    .member-info p {
+      margin: 0.5rem 0 0;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #2e7d32;
+      border-top: 2px solid #1b5e20;
+    }
+
+    @media (max-width: 768px) {
+      .member {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .member img {
+        margin: 0 0 1rem 0;
+      }
+
+      .founder-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Daegu Middle High School Hall of Fame</h1>
+    <h2>DMHS Hall of Fame Foundations</h2>
+  </header>
+
+  <section class="foundation">
+    <p>Founded in 2025 by Dylan LEntz, Savannah Torres, Alice im, Tegan Pandell, and Heather Pak, under the principal Mr. Clits and vice principal Dr. Kelly.</p>
+  </section>
+
+  <section class="criteria">
+    <p>To be inducted into the DMHS Hall of Fame, candidates must receive three recommendations from senior council members and one recommendation from the principal. This ensures that only those who truly exemplify excellence, leadership, and dedication to the DMHS community are honored.</p>
+  </section>
+
+  <!-- Founders Section -->
+  <section class="founders">
+    <h2>Our Founders</h2>
+    <div class="founder-grid">
+
+      <div class="founder">
+        <img src="https://via.placeholder.com/200" alt="Dylan Lintz">
+        <h3>Dylan Lentz</h3>
+        <p>[Short blurb about Dylan’s role and contribution to founding the Hall of Fame.]</p>
+      </div>
+
+      <div class="founder">
+        <img src="https://via.placeholder.com/200" alt="Savannah Torres">
+        <h3>Savannah Torres</h3>
+        <p>[Short blurb about Savannah’s role and contribution to founding the Hall of Fame.]</p>
+      </div>
+
+      <div class="founder">
+        <img src="https://via.placeholder.com/200" alt="Alice M.">
+        <h3>Alice Im</h3>
+        <p>[Short blurb about Alice’s role and contribution to founding the Hall of Fame.]</p>
+      </div>
+
+      <div class="founder">
+        <img src="https://via.placeholder.com/200" alt="Tegan Pandell">
+        <h3>Tegan Pandell</h3>
+        <p>[Short blurb about Tegan’s role and contribution to founding the Hall of Fame.]</p>
+      </div>
+
+      <div class="founder">
+        <img src="https://via.placeholder.com/200" alt="Heather Pak">
+        <h3>Heather Pak</h3>
+        <p>[Short blurb about Heather’s role and contribution to founding the Hall of Fame.]</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Hall of Fame Members -->
+  <section class="members">
+    <div class="member">
+      <img src="https://via.placeholder.com/200" alt="Member Photo">
+      <div class="member-info">
+        <h3>2025 – [Member Name]</h3>
+        <p>[Brief blurb about why this individual was chosen for the Hall of Fame.]</p>
+      </div>
+    </div>
+
+    <div class="member">
+      <img src="https://via.placeholder.com/200" alt="Member Photo">
+      <div class="member-info">
+        <h3>2026 – [Member Name]</h3>
+        <p>[Brief blurb about their contribution or achievement.]</p>
+      </div>
+    </div>
+
+    <div class="member">
+      <img src="https://via.placeholder.com/200" alt="Member Photo">
+      <div class="member-info">
+        <h3>2027 – [Member Name]</h3>
+        <p>[Brief blurb about their contribution or achievement.]</p>
+      </div>
+    </div>
+
+    <div class="member">
+      <img src="https://via.placeholder.com/200" alt="Member Photo">
+      <div class="member-info">
+        <h3>2028 – [Member Name]</h3>
+        <p>[Brief blurb about their contribution or achievement.]</p>
+      </div>
+    </div>
+
+    <div class="member">
+      <img src="https://via.placeholder.com/200" alt="Member Photo">
+      <div class="member-info">
+        <h3>2029 – [Member Name]</h3>
+        <p>[Brief blurb about their contribution or achievement.]</p>
+      </div>
+    </div>
+
+    <div class="member">
+      <img src="https://via.placeholder.com/200" alt="Member Photo">
+      <div class="member-info">
+        <h3>2030 – [Member Name]</h3>
+        <p>[Brief blurb about their contribution or achievement.]</p>
+      </div>
+    </div>
+
+    <div class="member">
+      <img src="https://via.placeholder.com/200" alt="Member Photo">
+      <div class="member-info">
+        <h3>2031 – [Member Name]</h3>
+        <p>[Brief blurb about their contribution or achievement.]</p>
+      </div>
+    </div>
+
+    <div class="member">
+      <img src="https://via.placeholder.com/200" alt="Member Photo">
+      <div class="member-info">
+        <h3>2032 – [Member Name]</h3>
+        <p>[Brief blurb about their contribution or achievement.]</p>
+      </div>
+    </div>
+
+    <div class="member">
+      <img src="https://via.placeholder.com/200" alt="Member Photo">
+      <div class="member-info">
+        <h3>2033 – [Member Name]</h3>
+        <p>[Brief blurb about their contribution or achievement.]</p>
+      </div>
+    </div>
+
+    <div class="member">
+      <img src="https://via.placeholder.com/200" alt="Member Photo">
+      <div class="member-info">
+        <h3>2034 – [Member Name]</h3>
+        <p>[Brief blurb about their contribution or achievement.]</p>
+      </div>
+    </div>
+
+    <div class="member">
+      <img src="https://via.placeholder.com/200" alt="Member Photo">
+      <div class="member-info">
+        <h3>2035 – [Member Name]</h3>
+        <p>[Brief blurb about their contribution or achievement.]</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Daegu Middle High School Hall of Fame</p>
+  </footer>
+
+</body>
+</html>
